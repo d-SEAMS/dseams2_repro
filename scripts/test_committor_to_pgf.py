@@ -9,7 +9,7 @@ import unittest
 from committor_to_pgf import figure_tex, load, table_tex
 
 HERE = pathlib.Path(__file__).resolve().parent
-SAMPLE = HERE.parent / "results" / "production" / "committor.txt"
+SAMPLE = HERE.parent / "results" / "reference" / "elja-production" / "committor.txt"
 
 
 class CommittorPgf(unittest.TestCase):
